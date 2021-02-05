@@ -19,6 +19,7 @@ Time spent: 4 hours - I only saw the nature of the test this morning and thought
 
 - API endpoint and baseURL can't change, otherwise the App will not get any JSON. I have not implemented a backup solution to just load the JSON from the app bundle and there are no tests yet
 - Some issues with the navigationbar not always displaying the Title as well as the status bar not showing
+- Some compiler warnings from not using the latest pods available
 
 ## Thoughts and Architecture
 
