@@ -33,11 +33,11 @@ We define the baseAPIUrl and then attach the API endpoint in the call.
 
 in getFlights we get the JSON and send it to the FlightList class as an array.
 
-### FlightList
+### FlightList (currently residing within FlightService.swift)
 
 FlightList will be our return value. It will hold an array of FlightSearchResults and can be easily modified in the future.
 
-### FlightSearchResult.swift
+### FlightSearchResult (currently residing within FlightService.swift)
 
 This is our model for an individual Flight. Here we can apply any formatting and process the information from the JSON. This model will be used to fill in the data in our search results in the table and then be passed on to the detail view.
 
